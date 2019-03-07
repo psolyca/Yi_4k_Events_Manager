@@ -1,3 +1,9 @@
+'''
+These scripts start the stream of the Yi when the button is pushed.
+Thus, a media viewer can connect to the RTSP server
+of the Yi with rtsp://YiIPAddress/live.
+This is better to use sta mode for wifi.
+'''
 import os
 import logging
 import time

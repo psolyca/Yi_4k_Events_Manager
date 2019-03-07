@@ -1,3 +1,7 @@
+'''
+This script start recording when the USB adaptater is plugged to the Yi
+and stop recording when it is unplugged.
+'''
 def cmd(obj, _res):
     arg= {}
     if _res['param'] == "1":
